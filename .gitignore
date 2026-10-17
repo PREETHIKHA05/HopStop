@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+
+# Datasets and temporary files
+backend/data/
+data/
+*.csv
+*.log
+
+# Credentials and private keys
+*.pem
+*.key
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

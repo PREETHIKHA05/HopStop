@@ -1,0 +1,21 @@
+{
+  "model_name": "HopStop Random Forest",
+  "dataset": "PaySim",
+  "training_rows": 246570,
+  "testing_rows": 61643,
+  "features": [
+    "step",
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "type_CASH_IN",
+    "type_CASH_OUT",
+    "type_DEBIT",
+    "type_PAYMENT",
+    "type_TRANSFER"
+  ],
+  "target": "isFraud",
+  "random_state": 42
+}
